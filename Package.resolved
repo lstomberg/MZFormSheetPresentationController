@@ -1,0 +1,16 @@
+{
+  "object": {
+    "pins": [
+      {
+        "package": "MZAppearance",
+        "repositoryURL": "https://github.com/lstomberg/MZAppearance.git",
+        "state": {
+          "branch": "master",
+          "revision": "92ce03ce29e5acace375725ff9c43c3efec1168f",
+          "version": null
+        }
+      }
+    ]
+  },
+  "version": 1
+}
