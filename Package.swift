@@ -10,7 +10,7 @@ let package = Package(
         .library(name: "MZFormSheetPresentationController", targets: ["MZFormSheetPresentationController"])
     ],
     dependencies: [
-        .package(url: "https://github.com/lstomberg/MZAppearance.git", .branch("master"))
+        .package(url: "https://github.com/lstomberg/MZAppearance.git", .branch("try2"))
     ],
     targets: [
         .target(
