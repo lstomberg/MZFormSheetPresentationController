@@ -10,7 +10,7 @@ let package = Package(
         .library(name: "MZFormSheetPresentationController", targets: ["MZFormSheetPresentationController"])
     ],
     dependencies: [
-        .package(url: "https://github.com/lstomberg/MZAppearance.git", .branch("try2"))
+        .package(url: "https://github.com/lstomberg/MZAppearance.git", .upToNextMajor(from: "1.1.7"))
     ],
     targets: [
         .target(
@@ -19,7 +19,6 @@ let package = Package(
                 "MZAppearance",
             ],
             path: "MZFormSheetPresentationController"
-            // exclude: ["PermissionScope.h"]
         ),
     ],
     swiftLanguageVersions: [.v5]
