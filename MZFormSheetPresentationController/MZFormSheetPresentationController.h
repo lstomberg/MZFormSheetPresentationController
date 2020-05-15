@@ -24,7 +24,7 @@
 //  THE SOFTWARE.
 
 #import <UIKit/UIKit.h>
-@import MZAppearance;
+#import "MZAppearance.h"
 #import "MZTransition.h"
 
 typedef void(^MZFormSheetPresentationControllerTransitionBeginCompletionHandler)(UIViewController * __nonnull presentingViewController);

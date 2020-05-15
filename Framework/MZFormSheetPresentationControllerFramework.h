@@ -21,6 +21,7 @@ FOUNDATION_EXPORT const unsigned char MZFormSheetPresentationControllerVersionSt
 #import <MZFormSheetPresentationController/MZFormSheetPresentationController-Bridging-Header.h>
 
 #import <MZFormSheetPresentationController/MZTransition.h>
+#import <MZFormSheetPresentationController/MZAppearance.h>
 
 #import <MZFormSheetPresentationController/MZFormSheetPresentationViewControllerAnimator.h>
 #import <MZFormSheetPresentationController/MZFormSheetPresentationViewControllerAnimatedTransitioning.h>
