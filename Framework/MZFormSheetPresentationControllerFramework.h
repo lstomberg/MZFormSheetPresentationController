@@ -1,36 +1,36 @@
 //
-//  MZFormSheetPresentationControllerFramework.h
-//  MZFormSheetPresentationControllerFramework
+//  MZPCFramework.h
+//  MZPCFramework
 //
 
 #import <UIKit/UIKit.h>
 
 //! Project version number for MZFormSheetPresentation.
-FOUNDATION_EXPORT double MZFormSheetPresentationControllerVersionNumber;
+FOUNDATION_EXPORT double MZPCVersionNumber;
 
 //! Project version string for MZFormSheetPresentation.
-FOUNDATION_EXPORT const unsigned char MZFormSheetPresentationControllerVersionString[];
+FOUNDATION_EXPORT const unsigned char MZPCVersionString[];
 
 // In this header, you should import all the public headers of 
 // your framework using statements like 
-// #import <MZFormSheetPresentationController/PublicHeader.h>
+// #import <MZPC/PublicHeader.h>
 
-#import <MZFormSheetPresentationController/MZFormSheetPresentationController.h>
-#import <MZFormSheetPresentationController/MZFormSheetPresentationViewController.h>
-#import <MZFormSheetPresentationController/MZFormSheetPresentationViewControllerSegue.h>
-#import <MZFormSheetPresentationController/MZFormSheetPresentationController-Bridging-Header.h>
+#import <MZPC/MZFormSheetPresentationController.h>
+#import <MZPC/MZFormSheetPresentationViewController.h>
+#import <MZPC/MZFormSheetPresentationViewControllerSegue.h>
+#import <MZPC/MZFormSheetPresentationController-Bridging-Header.h>
 
-#import <MZFormSheetPresentationController/MZTransition.h>
-#import <MZFormSheetPresentationController/MZAppearance.h>
+#import <MZPC/MZTransition.h>
+#import <MZPC/MZAppearance.h>
 
-#import <MZFormSheetPresentationController/MZFormSheetPresentationViewControllerAnimator.h>
-#import <MZFormSheetPresentationController/MZFormSheetPresentationViewControllerAnimatedTransitioning.h>
-#import <MZFormSheetPresentationController/MZFormSheetPresentationViewControllerInteractiveAnimator.h>
-#import <MZFormSheetPresentationController/MZFormSheetPresentationViewControllerInteractiveTransitioning.h>
+#import <MZPC/MZFormSheetPresentationViewControllerAnimator.h>
+#import <MZPC/MZFormSheetPresentationViewControllerAnimatedTransitioning.h>
+#import <MZPC/MZFormSheetPresentationViewControllerInteractiveAnimator.h>
+#import <MZPC/MZFormSheetPresentationViewControllerInteractiveTransitioning.h>
 
-#import <MZFormSheetPresentationController/MZFormSheetPresentationContentSizing.h>
-#import <MZFormSheetPresentationController/MZFormSheetContentSizingNavigationController.h>
-#import <MZFormSheetPresentationController/MZFormSheetContentSizingNavigationControllerAnimator.h>
+#import <MZPC/MZFormSheetPresentationContentSizing.h>
+#import <MZPC/MZFormSheetContentSizingNavigationController.h>
+#import <MZPC/MZFormSheetContentSizingNavigationControllerAnimator.h>
 
-#import <MZFormSheetPresentationController/MZBlurEffectAdapter.h>
-#import <MZFormSheetPresentationController/UIViewController+TargetViewController.h>
+#import <MZPC/MZBlurEffectAdapter.h>
+#import <MZPC/UIViewController+TargetViewController.h>

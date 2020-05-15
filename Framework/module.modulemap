@@ -1,4 +1,4 @@
-framework module MZFormSheetPresentationController {
+framework module MZPC {
     umbrella header "MZFormSheetPresentationControllerFramework.h"
     
     export *
